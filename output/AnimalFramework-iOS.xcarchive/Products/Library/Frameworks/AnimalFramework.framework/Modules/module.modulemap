@@ -1,0 +1,4 @@
+framework module AnimalFramework {
+  header "AnimalFramework-Swift.h"
+  requires objc
+}

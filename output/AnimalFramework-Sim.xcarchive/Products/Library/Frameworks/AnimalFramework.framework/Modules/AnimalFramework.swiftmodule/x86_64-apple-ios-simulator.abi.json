@@ -1,0 +1,237 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnimalFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Dog",
+        "printedName": "Dog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AnimalFramework3DogV4nameSSvp",
+            "mangledName": "$s15AnimalFramework3DogV4nameSSvp",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AnimalFramework3DogV4nameSSvg",
+                "mangledName": "$s15AnimalFramework3DogV4nameSSvg",
+                "moduleName": "AnimalFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dog",
+                "printedName": "AnimalFramework.Dog",
+                "usr": "s:15AnimalFramework3DogV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AnimalFramework3DogV4nameACSS_tcfc",
+            "mangledName": "$s15AnimalFramework3DogV4nameACSS_tcfc",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "bark",
+            "printedName": "bark()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AnimalFramework3DogV4barkyyF",
+            "mangledName": "$s15AnimalFramework3DogV4barkyyF",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AnimalFramework3DogV",
+        "mangledName": "$s15AnimalFramework3DogV",
+        "moduleName": "AnimalFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnimalFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Cat",
+        "printedName": "Cat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AnimalFramework3CatV4nameSSvp",
+            "mangledName": "$s15AnimalFramework3CatV4nameSSvp",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AnimalFramework3CatV4nameSSvg",
+                "mangledName": "$s15AnimalFramework3CatV4nameSSvg",
+                "moduleName": "AnimalFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Cat",
+                "printedName": "AnimalFramework.Cat",
+                "usr": "s:15AnimalFramework3CatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AnimalFramework3CatV4nameACSS_tcfc",
+            "mangledName": "$s15AnimalFramework3CatV4nameACSS_tcfc",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "meow",
+            "printedName": "meow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AnimalFramework3CatV4meowyyF",
+            "mangledName": "$s15AnimalFramework3CatV4meowyyF",
+            "moduleName": "AnimalFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AnimalFramework3CatV",
+        "mangledName": "$s15AnimalFramework3CatV",
+        "moduleName": "AnimalFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

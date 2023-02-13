@@ -1,0 +1,11 @@
+framework module StaticAnimalFramework {
+  umbrella header "StaticAnimalFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module StaticAnimalFramework.Swift {
+  header "StaticAnimalFramework-Swift.h"
+  requires objc
+}

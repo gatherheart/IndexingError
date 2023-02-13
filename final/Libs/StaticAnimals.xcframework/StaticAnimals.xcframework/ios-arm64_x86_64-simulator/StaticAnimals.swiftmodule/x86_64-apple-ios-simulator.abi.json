@@ -1,0 +1,237 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaticAnimals"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Dog",
+        "printedName": "Dog",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13StaticAnimals3DogV4nameSSvp",
+            "mangledName": "$s13StaticAnimals3DogV4nameSSvp",
+            "moduleName": "StaticAnimals",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13StaticAnimals3DogV4nameSSvg",
+                "mangledName": "$s13StaticAnimals3DogV4nameSSvg",
+                "moduleName": "StaticAnimals",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dog",
+                "printedName": "StaticAnimals.Dog",
+                "usr": "s:13StaticAnimals3DogV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13StaticAnimals3DogV4nameACSS_tcfc",
+            "mangledName": "$s13StaticAnimals3DogV4nameACSS_tcfc",
+            "moduleName": "StaticAnimals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "bark",
+            "printedName": "bark()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13StaticAnimals3DogV4barkyyF",
+            "mangledName": "$s13StaticAnimals3DogV4barkyyF",
+            "moduleName": "StaticAnimals",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13StaticAnimals3DogV",
+        "mangledName": "$s13StaticAnimals3DogV",
+        "moduleName": "StaticAnimals",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StaticAnimals"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Cat",
+        "printedName": "Cat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13StaticAnimals3CatV4nameSSvp",
+            "mangledName": "$s13StaticAnimals3CatV4nameSSvp",
+            "moduleName": "StaticAnimals",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13StaticAnimals3CatV4nameSSvg",
+                "mangledName": "$s13StaticAnimals3CatV4nameSSvg",
+                "moduleName": "StaticAnimals",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Cat",
+                "printedName": "StaticAnimals.Cat",
+                "usr": "s:13StaticAnimals3CatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13StaticAnimals3CatV4nameACSS_tcfc",
+            "mangledName": "$s13StaticAnimals3CatV4nameACSS_tcfc",
+            "moduleName": "StaticAnimals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "meow",
+            "printedName": "meow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13StaticAnimals3CatV4meowyyF",
+            "mangledName": "$s13StaticAnimals3CatV4meowyyF",
+            "moduleName": "StaticAnimals",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13StaticAnimals3CatV",
+        "mangledName": "$s13StaticAnimals3CatV",
+        "moduleName": "StaticAnimals",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

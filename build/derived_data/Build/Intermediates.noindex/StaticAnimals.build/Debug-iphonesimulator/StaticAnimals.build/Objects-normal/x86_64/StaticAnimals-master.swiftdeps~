@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "9cd03046e3e92d4b9d0c9c69c3180fcda5dbfe28958b4c858b8a5274cf55d1f3"
+build_start_time: [1675694623, 612410068]
+build_end_time: [1675694623, 642904043]
+inputs:
+  "/Users/beanmilky/Downloads/IndexingError/Animals/StaticAnimals/Cat.swift": !private [1675693434, 522193193]
+  "/Users/beanmilky/Downloads/IndexingError/Animals/StaticAnimals/Dog.swift": !private [1675693434, 521759748]
